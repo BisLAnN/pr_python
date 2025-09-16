@@ -67,10 +67,10 @@ print("b =", b)
 
 
 # 9
-number = 53
-print("Двоичная: ", bin(number))
-print("Восьмеричная: ", oct(number))
-print("Шестнадцатеричная: ", hex(number))
+n = 53
+print("Двоичная: ", bin(n))
+print("Восьмеричная: ", oct(n))
+print("Шестнадцатеричная: ", hex(n))
 
 
 # 10
@@ -90,8 +90,8 @@ print("Результат с округлением: ", result)
 
 
 # 12
-number = input("Введите четырехзначное число: ")
-digits = [int(digit) for digit in number]
+n = input("Введите четырехзначное число: ")
+digits = [int(digit) for digit in n]
 print("Цифры введённого числа: ", *digits)
 
 
