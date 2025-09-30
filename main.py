@@ -63,8 +63,8 @@ print(f"{days}:{hours}:{minutes}:{seconds}")
 
 # 7
 n = input("Введите число: ")
-nn = n * 2
-nnn = n * 3
+nn = n * n
+nnn = n * n * n
 
 result = int(n) + int(nn) + int(nnn)
 print("Результат: ", result)
